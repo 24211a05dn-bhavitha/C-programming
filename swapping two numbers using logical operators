@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("\n enter two numbers:\n");
+scanf(%d %d", &a, &b);
+// logic starts
+(a!=b)&&(a=a+b,b=a-b,a=a-b);
+printf("\n After swapping :\n);
+printf("a=%d \n",a);
+printf("b=%d\n",b);
+return 0;
+}
