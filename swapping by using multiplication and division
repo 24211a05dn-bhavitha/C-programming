@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+int a, b;
+printf("\nEnter two numbers: ");
+scanf("%d %d", &a, &b);
+if(a != 0 && b != 0) {
+a = a * b;
+b = a / b;
+a = a / b;
+printf("\nAfter swapping: a = %d, b =%d\n", a, b);
+}
+else
+{
+printf("\n swap not possible using multiplication and division when one value is zero.\n");
+}
+return 0;
+}
